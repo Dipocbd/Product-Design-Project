@@ -1,0 +1,25 @@
+.service_container{
+    margin:auto;
+    padding:50px;
+    align-items: center;
+    justify-content: center;
+}
+
+ .service_content{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:2.5rem;
+} 
+
+.service_card{
+    border:1px solid;
+    width:645px;
+    height:508px;
+    text-align: center;
+    place-items: center;
+    padding:70px 0;
+}
+
+.service_card h4{
+padding:50px;
+}

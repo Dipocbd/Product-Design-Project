@@ -4,7 +4,7 @@ import IMG from '../../assets/image.png'
 
 const Intro = () => {
   return (
-    <>
+    <section id='intro'>
     <div className='intro_container'>
         <div className='intro__left'>
         <h2>Hello there</h2>
@@ -17,11 +17,11 @@ const Intro = () => {
             </div>
         </div>
         <div className='intro_img'>
-            <img src ={IMG} alt="Intro Image"/>
+            <img src ={IMG} alt="Intro"/>
           </div>
     </div>
     
-    </>
+    </section>
   )
 }
 

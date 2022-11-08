@@ -7,6 +7,10 @@
     
 }
 
+.about__left{
+    padding:50px;
+}
+
 .about_img{
     padding:50px;
     margin:50px;
@@ -93,6 +97,22 @@ display:inline-block;
     padding:20px;
  }
 
+ .about_flex{
+    display:flex;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius:10px;
+    padding:0px 20px;
+ }
+
+
+ .about_flex img{
+    width:51.73px;
+    height:51.73px;
+ }
+
  .green{
     background: linear-gradient(220.05deg, #039DBB 22.84%, rgba(0, 227, 112, 0.42) 196.07%);
 -webkit-background-clip: text;
@@ -101,3 +121,24 @@ background-clip: text;
 text-fill-color: transparent
  }
 
+ .about_content{
+    border-bottom: 1px solid #FFFFFF;
+    width:437px;
+ }
+
+ .social_icon{
+    display:flex;
+    margin-top:15px;
+    gap:10px;
+ }
+
+ .social_icon img{
+    width:88px;
+    height:68px;
+}
+
+.social_icon
+.icon_large img{
+    width:88px;
+    height:68px;
+}

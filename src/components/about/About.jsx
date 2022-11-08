@@ -1,15 +1,23 @@
 import React from 'react'
 import './about.css'
 import IMG from '../../assets/aboutimage.png'
+import IMG1 from '../../assets/socialicon1.png'
+import IMG2 from '../../assets/socialicon2.png'
+import IMG3 from '../../assets/socialicon3.png'
+import IMG4 from '../../assets/socialicon4.png'
+import IMG5 from '../../assets/socialicon5.png'
 
 const About = () => {
   return (
-    <>
+    <section id='about'>
     <div className='about_container'>
         <div className='about__left'>
          <div className='about_img'>
             <img src ={IMG} alt="About"/>
+           <div className='about_flex'>
+           <img src={IMG1} alt="Google Icon"></img>
            <h4>Google Certified</h4>
+           </div>
           </div>
        </div>
        
@@ -33,10 +41,16 @@ const About = () => {
                 <h2>Projects till date</h2>
             </div>
             </div>
+            <div className='social_icon'>
+                <div><img src={IMG2} alt="" /></div>
+                <div><img src={IMG3} alt="" /></div>
+                <div className='icon_large'><img src={IMG4} alt="" /></div>
+                <div className='icon_large'><img src={IMG5} alt="" /></div>
+            </div>
               
         </div>
     </div>
-    </>
+    </section>
   )
 }
 
