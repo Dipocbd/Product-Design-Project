@@ -3,7 +3,6 @@
     padding:50px;
     align-items: center;
     justify-content: center;
-    border:2px solid green;
 }
 
  .service_content{
@@ -104,3 +103,19 @@ padding:50px;
     .personal_cards h4{
         padding:50px;
         }
+
+
+    .service_logo{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+    }
+
+    .service_logo div{
+        border:2px solid;
+        border-radius:20px;
+        background: #242424;
+        width:200px;
+    }

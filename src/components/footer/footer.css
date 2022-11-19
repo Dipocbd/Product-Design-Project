@@ -1,0 +1,41 @@
+.footer_container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_logo img{
+    width:145px;
+    height:145px;
+}
+
+.footer_icons{
+    display:flex;
+    gap:25px;
+    padding:40px;
+}
+
+.icons_instagram{
+    width:30px;
+    height:47px;
+    color:  #C21975;
+ }
+
+
+.icons_linkedin{
+    width:30px;
+    height:47px;
+    color: #0077B7;
+}
+
+.icons_twitter{
+    width:30px;
+    height:47px;
+    color:#1DA1F2;
+}
+
+.icons_behance{
+    width:30px;
+    height:47px;
+    color:#0067FF;
+}

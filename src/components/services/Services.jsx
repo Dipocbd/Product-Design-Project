@@ -5,6 +5,12 @@ import IMG1 from '../../assets/productdesign.png'
 import IMG2 from '../../assets/digitalmarketing.png'
 import IMG3 from '../../assets/research.png'
 import IMG4 from '../../assets/strategy.png'
+import IMG5 from '../../assets/nestle.jpg'
+import IMG6 from '../../assets/lego.png'
+import IMG7 from '../../assets/access.jpg'
+import IMG8 from '../../assets/fidelity.png'
+import IMG9 from '../../assets/dubai.png'
+
 
 const Services = () => {
   return (
@@ -71,9 +77,28 @@ const Services = () => {
            <div className='brands'>
             <h2 className='gradient_text'>Selected Brands i have worked it</h2>
            </div>
+              <div className='service_logo'>
+             <div>
+             <img src ={IMG5} alt="nestle"></img>
+             </div>
+             <div>
+             <img src ={IMG6} alt="lego"></img>
+             </div>
+             <div>
+             <img src ={IMG7} alt="access bank"></img>
+             </div>
+             <div>
+             <img src ={IMG8} alt="fidelity bank"></img>
+             </div>
+             <div>
+             <img src ={IMG9} alt="dubai expo"></img>
+             </div>
+             
+              </div>
     </div>
     </section>
   )
+  
 }
 
 export default Services

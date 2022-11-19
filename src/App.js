@@ -3,6 +3,7 @@ import Nav from './components/nav/Nav';
 import Intro from './components/intro/Intro';
 import About from './components/about/About';
 import Services from './components/services/Services';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Intro />
     <About />
     <Services/>
+    <Footer/>
     </>
   );
 }
