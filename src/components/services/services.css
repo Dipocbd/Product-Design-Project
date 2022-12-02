@@ -12,7 +12,8 @@
 } 
 
 .service_card{
-    border:1px solid;
+    background: linear-gradient(147.06deg, #C8C7CC 13.43%, rgba(200, 199, 204, 0) 80.34%),
+    linear-gradient(124.87deg, rgba(255, 255, 255, 0.04) 0%, rgba(217, 217, 217, 0.06) 70.53%);
     width:645px;
     height:508px;
     text-align: center;
@@ -25,11 +26,11 @@ backdrop-filter: blur(20px);
 cursor: pointer;
 transition-duration: 1s;
 }
-
+ 
 .service_card:hover{
     transform: scale(0.5);
     
-}
+} 
 
 .service_card h3{
     font-weight:700;
@@ -81,18 +82,19 @@ padding:50px;
     } 
 
     .personal_cards{
-        border:1px solid;
+        background: linear-gradient(147.06deg, #C8C7CC 13.43%, rgba(200, 199, 204, 0) 80.34%),
+        linear-gradient(124.87deg, rgba(255, 255, 255, 0.04) 0%, rgba(217, 217, 217, 0.06) 70.53%);
         height:250px;
         text-align: center;
         place-items: center;
         padding:70px 0;
          box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
         background: linear-gradient(147.06deg, #C8C7CC 13.43%, rgba(200, 199, 204, 0) 80.34%),
-    linear-gradient(124.87deg, rgba(255, 255, 255, 0.04) 0%, rgba(217, 217, 217, 0.06) 70.53%);
-    backdrop-filter: blur(20px); 
-    cursor: pointer;
-    transition-duration: 1s;
-    width:100%;
+        linear-gradient(124.87deg, rgba(255, 255, 255, 0.04) 0%, rgba(217, 217, 217, 0.06) 70.53%);
+        backdrop-filter: blur(20px); 
+        cursor: pointer;
+        transition-duration: 1s;
+        width:100%;
     }
 
     .personal_cards h3{
@@ -113,9 +115,64 @@ padding:50px;
         gap:30px;
     }
 
+    .service_logo img{
+        width:200px;
+    }
+
     .service_logo div{
         border:2px solid;
         border-radius:20px;
         background: #242424;
         width:200px;
+    }
+
+     @media only screen and (max-width:1024px){
+        .service_content{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            padding:50px;
+        }
+
+        .service_card{
+            text-align: center;
+            place-items: center;
+        }
+    } 
+
+
+
+
+    @media only screen and (max-width:800px){
+        .service_content{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            /* display:grid;
+            grid-template-columns:1fr;
+            gap:2.5rem;
+            border:2px solid;
+            padding:50px; */
+        } 
+
+
+         .service_card{
+        text-align: center;
+        place-items: center;
+        width:400px;
+       } 
+
+       .personal_content{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       }
+
+       .personal_cards{
+        width:400px;
+        padding: 1rem;
+       }
+
     }

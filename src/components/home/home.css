@@ -7,13 +7,13 @@ h2{
     font-size:28px;
 }
 
-.intro_container{
+.home_container{
     display:flex;
     margin:0 5px;
     padding:40px;
 }
 
-.intro__left{
+.home__left{
     line-height: 41px;
     padding: 50px;
     line-height: 41.41px;
@@ -38,6 +38,7 @@ span{
     margin-top:50px;
     padding:5px;
 }
+
 
 .btn-gradient{
     width:max-content;

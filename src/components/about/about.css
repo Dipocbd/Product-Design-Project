@@ -142,3 +142,26 @@ background-clip: text;
     width:88px;
     height:68px;
 }
+
+
+@media screen and(max-width:1024px){
+  .about_container{
+   grid-template-columns: 1fr;
+  }
+}
+
+@media screen and(max-width:600px){
+   .about_container{
+      grid-template-columns: 1fr;
+      overflow-x:hidden;
+   }
+
+   .gradient_text{
+      font-size:14px;
+   }
+
+   .about_img{
+      place-items: center;
+      align-items: center;
+   }
+}

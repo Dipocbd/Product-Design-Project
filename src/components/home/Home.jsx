@@ -1,12 +1,12 @@
 import React from 'react'
-import './intro.css'
+ import './home.css'
 import IMG from '../../assets/image.png'
 
-const Intro = () => {
+const Home = () => {
   return (
-    <section id='intro'>
-    <div className='intro_container'>
-        <div className='intro__left'>
+    <section id='home'>
+    <div className='home_container'>
+        <div className='home__left'>
         <h2>Hello there</h2>
         <h3 className='work'>I’m <span>Femi Kehinde</span> a top-performing marketing and
            product design expert based in Dubai.
@@ -16,8 +16,8 @@ const Intro = () => {
                 <a href = "#about" className="btn-gradient btn-gradient-green">Learn More About Me</a>
             </div>
         </div>
-        <div className='intro_img'>
-            <img src ={IMG} alt="Intro"/>
+        <div className='home_img'>
+            <img src ={IMG} alt="Home"/>
           </div>
     </div>
     
@@ -25,4 +25,4 @@ const Intro = () => {
   )
 }
 
-export default Intro
+export default Home

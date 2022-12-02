@@ -16,7 +16,7 @@ const Services = () => {
   return (
     <section id='service'>
         <h2 className='gradient_text'>Services i offer</h2>
-         <img src = {IMG} alt=""></img> 
+         {/* <img src = {IMG} alt=""></img>  */}
         <div className='service_container'>
          <div className='service_content'>
             <div className='service_card'>
@@ -54,7 +54,7 @@ const Services = () => {
         </div>
            <div className='personal_container'>
             <h2 className='gradient_text'>PERSONAL VALUES</h2>
-            <img src = {IMG} alt=""></img>
+            {/* <img src = {IMG} alt=""></img> */}
             <h2 className='gradient_text'>From large enterprise to startups,
              here is what I promise:</h2> 
               <div className='personal_content'>
