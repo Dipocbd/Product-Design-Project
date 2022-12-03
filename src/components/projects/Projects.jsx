@@ -20,7 +20,7 @@ const Projects = () => {
         <div className='center'>
         <h2 className='gradient_text'>Designs</h2>
         {/* <img className='small' src = {IMG} alt=""></img>  */}
-        </div>
+        
         <div className='project_container'>
          <div className='project_card'>
          <img src ={IMG1} alt=""></img>
@@ -36,7 +36,9 @@ const Projects = () => {
          <div className='project_card_two'>
          <img src ={IMG4} alt=""></img>
          </div>
+         </div>
         </div>
+        
         
         
         {/* Product Design */}
