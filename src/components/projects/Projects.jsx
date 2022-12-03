@@ -67,7 +67,7 @@ const Projects = () => {
 
 
 
-        <div className='product_container'>
+        <div className='product_container_second'>
           <h2 className='gradient_text'>PRODUCT DESIGN</h2>
           <div className='product_details'>
              <div className='product_left'>
