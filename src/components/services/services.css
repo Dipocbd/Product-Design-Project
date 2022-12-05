@@ -138,6 +138,30 @@ padding:50px;
             text-align: center;
             place-items: center;
         }
+
+        .personal_container{
+            padding: 1rem;
+        }
+
+        .personal_content{
+            padding: 1.5rem;
+        }
+
+        .personal_cards{
+            padding:1rem;
+            margin:1rem;
+        }
+
+        .personal_cards h3{
+            font-size:15px;
+        }
+
+        .personal_cards h4{
+            padding:2rem;
+            font-size:12px;
+
+        }
+
     } 
 
 
@@ -174,6 +198,10 @@ padding:50px;
        .personal_cards{
         width:400px;
         padding: 1rem;
+       }
+
+       #service{
+        overflow: hidden;
        }
 
     }

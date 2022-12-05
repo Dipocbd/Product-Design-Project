@@ -204,5 +204,52 @@ padding:50px;
     width:300px;
     height:auto;
    }
-    
+
+.product_container{
+       display:flex;
+       flex-direction: column;
+       gap:20px;
+       align-items: center;
+       justify-content: center;
+       width:auto;
+       height:auto;
+       overflow: hidden;
+}
+
+
+.product_container_second{
+    width:auto;
+    height:auto;
+    overflow: hidden;
+}
+
+.product_details{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height:auto;
+}
+
+.arrow_flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+}
+
+.arrow_flex h3{
+    font-size:15px;
+}
+
+.arrow_flex img{
+    width:15px;
+    height:10px;
+}
+
+.nft_right{
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+}
 } 
