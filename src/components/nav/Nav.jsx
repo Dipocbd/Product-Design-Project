@@ -23,7 +23,7 @@ const Nav = () => {
          <Link to= '/services'><li className='p-4'>Services</li></Link>
          <Link to= '/projects'><li className='p-4'>Projects</li></Link>
          <Link to= '/contacts'><li className='p-4'>Contacts</li></Link>
-         <Link to= '/resume'><li className='p-4'>Resume</li></Link>
+         {/* <Link to= '/resume'><li className='p-4'>Resume</li></Link> */}
          </ul> 
 
          <div onClick={handleNav} className="block md:hidden">

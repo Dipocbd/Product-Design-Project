@@ -58,3 +58,19 @@ border-image-source: linear-gradient(180deg, #58C18C 0%, #00E370 100%);
     background:black;
     color:var(--white-color);
 } */
+
+
+
+@media only screen and (max-width:1024px){
+    .home_img{
+        display:none;
+    }
+}
+
+
+
+@media only screen and (max-width:800px){
+    .home_img{
+        display:none;
+    }
+}
