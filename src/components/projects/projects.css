@@ -12,6 +12,16 @@
     height:188.77px;
 } */
 
+.center h2{
+    text-align: center;
+}
+
+.product_container,
+.product_container_second,
+h2{
+    text-align: center;
+}
+
 .project_container{
     margin:auto;
     padding:50px;

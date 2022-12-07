@@ -116,15 +116,16 @@ padding:50px;
     }
 
     .service_logo img{
-        width:200px;
-    }
+        width:auto;
+        height: auto;
+      }
 
-    .service_logo div{
+    /* .service_logo div{
         border:2px solid;
         border-radius:20px;
         background: #242424;
         width:200px;
-    }
+    } */
 
      @media only screen and (max-width:1024px){
         .service_content{
