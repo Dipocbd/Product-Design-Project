@@ -7,6 +7,7 @@ import Services from './components/services/Services';
 import Footer from './components/footer/Footer';
 import Projects from './components/projects/Projects';
 
+
 function App() {
   return (
     <>
@@ -20,9 +21,9 @@ function App() {
     <Route path='/projects' element={<Projects/>}></Route>
     {/* <Route path='/contacts' component={Contacts} exact><Contacts/></Route>
     <Route path='/resume' component={Resume} exact><Resume/></Route> */}
+
 </Routes>
 </Router>
-
     <Footer/>
     </>
   );

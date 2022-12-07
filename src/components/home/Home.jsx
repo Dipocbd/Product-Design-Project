@@ -1,6 +1,8 @@
 import React from 'react'
  import './home.css'
 import IMG from '../../assets/image.png'
+import CV from '../../assets/cv.pdf'
+
 
 const Home = () => {
   return (
@@ -13,7 +15,7 @@ const Home = () => {
            I am interested in
             building brands, society and designs.</h3>
             <div className='cta'>
-                <a href = "#about" className="btn-gradient btn-gradient-green">Learn More About Me</a>
+            <a href={CV} download className='btn-gradient btn-gradient-green'> Download Resume</a>
             </div>
         </div>
         <div className='home_img'>
