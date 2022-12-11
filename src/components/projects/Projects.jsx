@@ -54,7 +54,7 @@ const Projects = () => {
                  The project  aims to create a user-friendly, minimal and engaging e-commerce website. 
                     </h4>
                 <div className='arrow_flex'>
-                    <h3 className='gradient_text'>View Case Study</h3>
+                    <a href='https://www.behance.net/gallery/151039741/Kokoette-Afrique-E-commerce-Website'><h3 className='gradient_text'>View Case Study</h3></a>
                     <img src ={IMG6} alt=""></img>
                     <img src ={IMG7} alt=""></img>
                 </div>
